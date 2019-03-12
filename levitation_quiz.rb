@@ -1,6 +1,9 @@
 
 def levitation_quiz
-	#your code here
+	#your code 
+	loop do
+    gets.chomp == ''	
+	end
 end
 
 
