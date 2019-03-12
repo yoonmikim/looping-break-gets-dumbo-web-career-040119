@@ -2,9 +2,11 @@
 def levitation_quiz
 	#your code 
 	loop do
-    gets.chomp == 'Wingardium Leviosa'
-    puts "You passed the quiz!"
+	  puts "What is the spell that enacts levitation?"
+    answer = gets.chomp
+    break if answer == 'Wingardium Leviosa'
 	end
+	puts "You passed the quiz!"
 end
 
 
